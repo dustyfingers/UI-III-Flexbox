@@ -89,16 +89,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-list {
-	margin-left: 2rem;
+	display: flex;
+	justify-content: space-between;
 }
 .logo {
-	margin-right: 2rem;
 	width: 20%;
 }
 
 .header-nav {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin: 2rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -108,7 +107,7 @@ h1, h2, h3, h4, h5 {
 
 .nav-list-item {
 	margin-right: 3rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 /* style landing section */
@@ -116,12 +115,11 @@ h1, h2, h3, h4, h5 {
 	margin: 4rem;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .call-to-action {
-	border: 2px solid black;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -130,7 +128,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .computer-img {
-	width: 40%;
+	width: 50%;
 }
 
 .cta-button {
@@ -138,7 +136,9 @@ h1, h2, h3, h4, h5 {
 	background: white;
 	color: black;
 	font-size: 2rem;
-	padding: 1rem;
+	width: 50%;
+	align-self: center;
+	padding: 0.5rem;
 	transition: 0.3s color ease-in-out, 0.8s background ease-out;
 }
 
@@ -150,36 +150,46 @@ h1, h2, h3, h4, h5 {
 
 /* style hr lines */
 hr {
-	border: 1px solid black;
+	width: 90%;
+	align-self: center;
+	border: 0.5px solid black;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 /* style cards */
+.content-section-container {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	width: 90%;
+}
+
 .card {
-	display: inline-block;
 	text-align: justify;
 }
 
 .card-body {
-	max-width: 80%;
-}
-
-.card-2 {
-	width: 45%;
-	margin-right: 4%;
-}
-
-.card-3 {
-	width: 30%;
-	margin-right: 3%;
-}
-.card-3 .card-body {
-	max-width: 85%;
+	width: 90%
 }
 
 /* make middle image bigger */
 .middle-img {
-	margin: 3rem auto;
-	width: 100%;
+	width: 90%;
+	align-self: center;
+	margin: 3rem;
 }
 
 /* style footer */
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	width: 90%;
+	align-self: center;
+}
+
+.copyright {
+	margin: 0 auto;
+	padding: 5rem;
+}
