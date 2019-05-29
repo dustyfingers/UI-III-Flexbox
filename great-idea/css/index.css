@@ -63,14 +63,21 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+/*  */
+/* CUSTOM STYLES */
+/*  */
+
+
 /* main container */
 .container {
-	width: 95%;
+	width: 90%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
-/* flatten out the navigation onto one line */
-.nav-item,
+/* nav styles */
 .nav-list-item {
 	display: inline;
 	color: #A0A0A0;
@@ -81,48 +88,49 @@ h1, h2, h3, h4, h5 {
 	color: black;
 }
 
-/* space nav list and logo out */
 .nav-list {
-	margin-left: 1rem;
-	margin-right: 15rem;
+	margin-left: 2rem;
+}
+.logo {
+	margin-right: 2rem;
+	width: 20%;
 }
 
-/* style header nav */
 .header-nav {
-	margin-top: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
 }
 
-/* style nav-list-items */
 .nav-list-item {
-	margin-right: 6rem;
-	font-size: 1.5rem;
+	margin-right: 3rem;
+	font-size: 2rem;
 }
 
 /* style landing section */
-
 .landing-section {
-	margin: 3rem;
-}
-
-.section-container {
-	margin: 0 auto;
-	text-align: center;
+	margin: 4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .call-to-action {
-	display: inline-block;
-	width: 45%;
-	margin-right: 9%;
-	font-size: 7rem;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 40%;
+	font-size: 6rem;
 }
 
 .computer-img {
-	display: inline-block;
-	width: 45%;
-}
-
-.tagline {
-	margin-bottom: -2rem;
+	width: 40%;
 }
 
 .cta-button {
@@ -131,7 +139,7 @@ h1, h2, h3, h4, h5 {
 	color: black;
 	font-size: 2rem;
 	padding: 1rem;
-	transition: 1.4s color, 0.7s background;
+	transition: 0.3s color ease-in-out, 0.8s background ease-out;
 }
 
 .cta-button:hover {
@@ -142,9 +150,7 @@ h1, h2, h3, h4, h5 {
 
 /* style hr lines */
 hr {
-	border: 0.5px solid black;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	border: 1px solid black;
 }
 
 /* style cards */
@@ -177,8 +183,3 @@ hr {
 }
 
 /* style footer */
-footer {
-	margin-top: 5rem;
-	margin-bottom: 10rem;
-	text-align: center;
-}
