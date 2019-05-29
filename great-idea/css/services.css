@@ -11,6 +11,7 @@
 
 .services-info-header {
     margin-top: 2rem;
+    font-size: 2rem;
 }
 
 /* gallery styles */
@@ -53,6 +54,23 @@
 	border: 1px solid white;
 	background: black;
 	color: white;
+}
+
+/* facts section styles */
+.facts-section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.facts-list {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    list-style-type: disc;
+    
+}
+
+.facts-list li {
+    padding: 0.25rem 0;
 }
 
 /* special hr */
