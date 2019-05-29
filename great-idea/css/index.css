@@ -52,6 +52,15 @@ table {
     box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	color: #A0A0A0;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -91,9 +100,6 @@ h1, h2, h3, h4, h5 {
 .nav-list {
 	display: flex;
 	justify-content: space-between;
-}
-.logo {
-	width: 20%;
 }
 
 .header-nav {
