@@ -1,0 +1,79 @@
+/* services landing section styles */
+.services-landing-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-header-img {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.services-info-header {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+/* gallery styles */
+.gallery-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.gallery-card {
+    width: 48%;
+    margin: 1%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background: lightgrey;
+}
+
+.gallery-card-title {
+    padding-top: 1rem;
+}
+
+.gallery-card-body {
+    width: 90%;
+    align-self: center;
+}
+
+.gallery-card-button {
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s color ease-in-out, 0.8s background ease-out;
+}
+
+.gallery-card-button:hover {
+	border: 1px solid white;
+	background: black;
+	color: white;
+}
+
+/* facts section styles */
+.facts-section-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.facts-list {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    list-style-type: disc;
+    
+}
+
+.facts-list li {
+    padding: 0.25rem 0;
+}
+
+/* special hr */
+.fat-hr {
+    border: 1px solid black;
+}
